@@ -8217,14 +8217,10 @@ a.header__search.header-search-btn p {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background-color: var(--ztc-bg-bg-2);
   margin-right: 16px;
   transition: all 0.4s;
 }
-.work .single-items:hover .icon {
-  background-color: var(--ztc-bg-main-bg-1);
-  transition: all 0.4s;
-}
+
 .work .heading1 {
   padding-right: 60px;
 }
