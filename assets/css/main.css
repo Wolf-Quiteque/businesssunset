@@ -2916,7 +2916,6 @@ a.header__search.header-search-btn p {
 .cta-btn2::after {
   content: "";
   position: absolute;
-  background-image: url(../img/icons/button-img.png);
   height: 100%;
   width: 0%;
   top: 0;
@@ -2942,7 +2941,7 @@ a.header__search.header-search-btn p {
   color: #fff;
   transform: translateY(-4px);
   transition: all 0.4s;
-  background-color: #3059CE;
+  background-color: #E78009;
   border: 1px solid #3059CE;
 }
 .cta-btn2:hover::after {
@@ -4033,7 +4032,7 @@ a.header__search.header-search-btn p {
   background-color: var(--ztc-bg-bg-1);
 }
 .service .single-box {
-  background-color: var(--ztc-bg-color-w);
+  background-color: #000;
   border-radius: 7px;
   padding: 32px 24px;
   margin-top: 30px;
@@ -4077,7 +4076,7 @@ a.header__search.header-search-btn p {
 }
 .service .single-box:hover .heading1 h4 a {
   display: inline-block;
-  color: var(--ztc-bg-color-w);
+  color:var(--ztc-bg-main-bg-1);
   transition: all 0.4s;
 }
 .service .single-box:hover .heading1 p {
@@ -7368,29 +7367,8 @@ a.header__search.header-search-btn p {
   margin-top: 60px;
   border-radius: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .testimonial .tes1-slider {
-    padding: 30px 30px 120px 30px;
-  }
-}
-@media (max-width: 767px) {
-  .testimonial .tes1-slider {
-    padding: 30px 30px 120px 30px;
-  }
-}
-.testimonial .tes1-slider .tes1-single-slider .right-side {
-  padding-right: 100px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .testimonial .tes1-slider .tes1-single-slider .right-side {
-    padding-right: 0;
-  }
-}
-@media (max-width: 767px) {
-  .testimonial .tes1-slider .tes1-single-slider .right-side {
-    padding-right: 0;
-  }
-}
+
+
 .testimonial .tes1-slider .tes1-single-slider .right-side h4 {
   font-size: var(--f-fs-font-fs32);
   line-height: var(--f-fs-font-fs32);
@@ -10436,23 +10414,31 @@ li.has-dropdown1 span {
   right: 10px;
 }
 
+.header-area1 {
+  background-color: var(--ztc-bg-color-w); /* White background */
+  transition: background-color 0.3s ease-in-out;
+}
+
 .header-area1.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  transform: translate3d(0, 0, 0);
   z-index: 111;
+  transform: translate3d(0, 0, 0);
   animation-name: fade-in-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  background-color: var(--ztc-bg-color-w);
   -webkit-backdrop-filter: blur(80px);
-          backdrop-filter: blur(80px);
+  backdrop-filter: blur(80px);
   box-shadow: rgba(0, 0, 0, 0.068) 0px 20px 30px;
-  transition: all 0.3s ease-in-out;
-  z-index: 999;
+  z-index: 999; 
 }
+
+.header-area1.dark-mode {
+  background-color: black; /* Dark mode background */
+}
+
 
 .header-area.header-area4.sticky {
   position: fixed;
