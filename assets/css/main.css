@@ -2068,7 +2068,7 @@ body.body {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #03256c; /* --- Lijn progres kleur --- */
+  stroke: #E78009; /* --- Lijn progres kleur --- */
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;

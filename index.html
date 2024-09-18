@@ -20,7 +20,12 @@
      <link rel="stylesheet" href="assets/css/mobile-menu.css">
      <link rel="stylesheet" href="assets/css/main.css">
 
+<style>
+   .text-black{
+    color:#000
+   }
 
+</style>
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-7-1.min.js"></script>
@@ -1044,6 +1049,8 @@
         
           navbarText.forEach(function(text) {
           // Remove existing listener before adding a new one
+          text.classList.remove("text-black");
+
           text.classList.add("text-white");
         });
 
@@ -1053,8 +1060,10 @@
 
           logo.src = "assets/img/5a-Edicao-black.png";
           navbarText.forEach(function(text) {
-          // Remove existing listener before adding a new one
-          text.classList.add("text-dark");
+          // Remove existing listener before adding a new on
+          text.classList.remove("text-white");
+
+          text.classList.add("text-black");
         });
         }
         
@@ -1062,7 +1071,6 @@
           headerArea.classList.add('dark-mode');
         } else {
           headerArea.classList.remove('dark-mode');
-          text.classList.add("text-dark");
         }
       });
     </script>
