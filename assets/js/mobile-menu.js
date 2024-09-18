@@ -7,8 +7,14 @@
     const mobile_sidebar = $('.mobile-sidebar');
     const mobile_nav_close = $('.menu-close');
 
+    const mobile_nav_closee = $('.menu-closed');
+
+
     mobile_nav_open.on('click', function(){
       mobile_sidebar.addClass('mobile-menu-active');
+    });
+    mobile_nav_closee.on('click', function(){
+      mobile_sidebar.removeClass('mobile-menu-active');
     });
 
     mobile_nav_close.on('click', function(){
