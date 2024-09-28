@@ -205,7 +205,7 @@
         <!--=====HERO AREA START=======-->
 
         <div class="hero1" style="
-          background-image: url('assets/img/bg/hero1-bg.png');
+          background-image: url('assets/img/bg/hero1-bgg.png');
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -214,13 +214,13 @@
             <div class="row">
               <div class="col-lg-5">
                 <div class="main-headding">
-                  <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Business <span class="text-white" >Sunset</span></span>
-                  <h1 class="title tg-element-title">Conectamos empresários e <span class="after">investidores.</span></h1>
+                  <span class="span" data-aos="zoom-in-left" data-aos-duration="700">Business <span class="text-black" >Sunset</span></span>
+                  <h1 class="title tg-element-title text-black">Conectamos empresários e <span class="after">investidores.</span></h1>
                   <div class="space16"></div>
-                  <p><i>"Criar experiências que sejam eficientes, agradáveis e significativas para os
+                  <p class="text-black"><i>"Criar experiências que sejam eficientes, agradáveis e significativas para os
                     usuários, atendendo às suas necessidades e expectativas, pelo entendimento
                     profundo do público-alvo"</i></p>
-
+hero1-bgg
                   <div class="space30"></div>
                   <div class="buttons">
                     <a class="theme-btn1" href="contact.html">Inscreva-se <span><i class="fa-solid fa-arrow-right"></i></span></a>
@@ -945,49 +945,7 @@
      <script src="assets/js/ripple-btn.js"></script>
      <script src="assets/js/main.js"></script>
 
-     <script>
-      window.addEventListener("scroll", function () {
-        
-        const header = document.getElementById("header");
-        const logo = document.getElementById("header-logo");
-        const headerArea = document.querySelector('.header-area1');
-        const navbarText = document.querySelectorAll('.navbar-text');
-
-        
-        if (window.scrollY > 100) {
-          // Add sticky class when scrolling down
-          header.classList.add("sticky");
-          // Change logo to black version
-          logo.src = "assets/img/5a-Edicao.png";
-          
-        
-          navbarText.forEach(function(text) {
-          // Remove existing listener before adding a new one
-          text.classList.remove("text-black");
-
-          text.classList.add("text-white");
-        });
-
-        } else {
-          // Remove sticky class when back to top
-          header.classList.remove("sticky");
-
-          logo.src = "assets/img/5a-Edicao-black.png";
-          navbarText.forEach(function(text) {
-          // Remove existing listener before adding a new on
-          text.classList.remove("text-white");
-
-          text.classList.add("text-black");
-        });
-        }
-        
-        if (window.scrollY > 50) { // Adjust the scroll distance as needed
-          headerArea.classList.add('dark-mode');
-        } else {
-          headerArea.classList.remove('dark-mode');
-        }
-      });
-    </script>
+ 
 
 <script>
   $(document).ready(function(){
