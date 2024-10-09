@@ -2810,7 +2810,6 @@ a.header__search.header-search-btn p {
 .theme-btn1::after {
   content: "";
   position: absolute;
-  background-image: url(../img/icons/button-img.png);
   height: 100%;
   width: 0%;
   top: 0;
@@ -2836,7 +2835,7 @@ a.header__search.header-search-btn p {
   color: #fff;
   transform: translateY(-4px);
   transition: all 0.4s;
-  background-color: #3059CE;
+  background-color: #000;
 }
 .theme-btn1:hover::after {
   width: 100%;
@@ -3430,6 +3429,40 @@ a.header__search.header-search-btn p {
 @media (max-width: 767px) {
   .about1 .about-image .icon-box {
     display: none;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .img-girls {
+    display: none;
+  }
+
+  .img-girls2 {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #work{
+    margin-top: -100px;
+  }
+  .blog{
+    margin-top: -100px;
+  }
+
+  .pricing{
+    margin-top: -100px;
+  }
+  .scrollspy-example {
+    margin-top: -280px;
+  }
+  .img-girls2 {
+    display: none;
+  }
+
+  .img-girls {
+    display: block;
   }
 }
 
