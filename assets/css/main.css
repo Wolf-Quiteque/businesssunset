@@ -3441,9 +3441,20 @@ a.header__search.header-search-btn p {
   .img-girls2 {
     display: block;
   }
+
+  .lineing {
+    display: block;
+  }
+
+
 }
 
 @media (min-width: 768px) {
+
+  .lineing {
+    display: none;
+  }
+
   #work{
     margin-top: -100px;
   }
