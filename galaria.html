@@ -3,7 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Responsabilidade social</title>
+     <title>Galeria</title>
 
      <!--=====FAB ICON=======-->
      <link rel="shortcut icon" href="assets/img/logo/titile.png" type="image/x-icon">
@@ -19,8 +19,40 @@
      <link rel="stylesheet" href="assets/css/aos.css">
      <link rel="stylesheet" href="assets/css/mobile-menu.css">
      <link rel="stylesheet" href="assets/css/main.css">
-
-
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+     <style>
+      .gallery-container {
+          padding: 50px 0;
+          background-color: #f9f9f9;
+      }
+      .gallery-title {
+          text-align: center;
+          font-size: 2.5rem;
+          color: #333;
+          margin-bottom: 30px;
+      }
+      .gallery-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 20px;
+          padding: 0 20px;
+      }
+      .gallery-item {
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          transition: transform 0.3s ease;
+      }
+      .gallery-item:hover {
+          transform: scale(1.05);
+      }
+      .gallery-item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+      }
+  </style>
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-7-1.min.js"></script>
@@ -81,7 +113,7 @@
 
               <li><a class="list-group-item list-group-item-action navbar-text" href="index.html#about">Sobre</a></li>
               <li><a class="list-group-item list-group-item-action navbar-text" href="index.html#service">Soluções</a></li>
-                <li><a class="list-group-item list-group-item-action navbar-text" href="galaria.html">Club de Negócio</a></li>
+                <li><a class="list-group-item list-group-item-action navbar-text" href="galaria.html">Galeria</a></li>
                 <li><a class="list-group-item list-group-item-action navbar-text" href="cursos.html">Cursos</a></li>
 
                 <li><a class="list-group-item list-group-item-action navbar-text" href="index.html#footer">Contacto</a></li>
@@ -139,7 +171,7 @@
         <ul>
           <li><a class="list-group-item list-group-item-action navbar-text menu-closed " href="#about">Sobre</a></li>
           <li><a class="list-group-item list-group-item-action navbar-text menu-closed" href="#service">Soluções</a></li>
-          <li><a class="list-group-item list-group-item-action navbar-text menu-closed" href="#work">Club de Negócio</a></li>
+          <li><a class="list-group-item list-group-item-action navbar-text menu-closed" href="galaria.html">Galeria</a></li>
           <li><a class="list-group-item list-group-item-action navbar-text" href="cursos.html">Cursos</a></li>
 
           <li><a class="list-group-item list-group-item-action navbar-text menu-closed" href="#footer">Contacto</a></li>
@@ -206,7 +238,7 @@
             <div class="row align-items-center text-center">
               <div class="col-lg-8 m-auto">
                 <div class="main-heading">
-                  <h1 style="color:#fff">Áreas de Actuação</h1>
+                  <h1 style="color:#fff">Galeria</h1>
                   <div class="space16"></div>
                   <span class="span"><img src="assets/img/icons/span1.png" alt=""></span>
                 </div>
@@ -217,104 +249,101 @@
         
 
  
-
-        <!--=====SERVICE DETAILS AREA START=======-->
-
-        <div class="service-details-area-all sp">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-md-12 ">
-                        <div class="service-details-post">
-                            <article>
-                                <div class="details-post-area">
-                            
-                                    <div class="space30"></div>
-                                    <div class="heading1">
-                                        <h2>Projeto ZUNGA +</h2>
-                                        <div class="space16"></div>
-                                        <p style="text-align: justify; color:black">
-                                          O Projeto ZUNGA + promove o empreendedorismo comunitário em Angola, com foco na formalização da economia informal e no empoderamento feminino. A plataforma apoia profissionais independentes, especialmente mulheres, oferecendo educação financeira, bancarização, microfinanciamento e suporte técnico, ajudando-os a se tornarem empreendedores formais. Com impacto positivo em mais de 30 famílias, o projeto inclui o subprograma Família Empreendedora e utiliza experiências internacionais para gerar inclusão e dignidade no trabalho em comunidades de baixo poder aquisitivo.
-                                        </p></div>
-                                </div>
-                            </article>
-
-                            <div class="space50"></div>
-
-                            <article>
-                                <div class="details-post-area">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="heading1">
-                                                <h5 style="font-size: 20px;">
-                                                  Requisitos para tornar-se “AGENTE PROMOTOR”:</h5>
-                                                <div class="space16"></div>
-                                                <p style="color:black">1. Ter rendimentos brutos anuais superior a 4 000 000, 00 Kz;</p>  
-                                                <P style="color:black">2. ⁠Comprometer-se a acompanhar um projecto do ZUNGA + por 1 ano;</p>  
-                                                <P style="color:black">3. ⁠Estar inscrito na Segurança Social;</P>  
-                                                <p style="color:black">4. ⁠Possuir Número de Identificação Fiscal (actualizado);  </p> 
-                                                <p style="color:black">5. ⁠Possuir Bilhete de Identidade (actualizado).</p> 
-                                                
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                          <div class="heading1">
-                                              <h5 style="font-size: 20px;">
-                                                Requisitos para tornar-se "AGENTE BENEFICIADO":</h5>
-                                              <div class="space16"></div>
-                                              <p style="color:black">1. Bilhete de Identidade;;</p>  
-                                              <P style="color:black">2. ⁠Habilidade para trabalho em equipa, com supervisão diária;</p>  
-                                              <P style="color:black">3. ⁠Ter a certificação do curso de literacia financeira ministrado pela incubadora (a formação é composta por 5 aulas);</P>  
-                                              <p style="color:black">4.  ⁠Ter mais de 17 anos;  </p> 
-                                              
-                                          </div>
-                                      </div>
-                                     
-                                      <div class="container mt-3 mb-3 ">
-                                        <hr>
-                                      </div>
-
-                                        <div class="col-md-6">
-                                            <div class="space30"></div>
-                                            <div class="heading1">
-                                                <h5>Team Ecovila CABO LEDO</h5>
-                                                <div class="space20"></div>
-                                                <p style="color: black; text-align: justify;">
-                                                  O <strong>Team Ecovila  CABO LEDO</strong> é uma joint venture focada em realizar projetos de impacto social para transformar Cabo Ledo em uma comunidade autossustentável e atraente ao investimento estrangeiro. O projeto promove a pesca sustentável, melhora a qualidade de vida e oferece capacitação para desenvolver habilidades. Com o objetivo de ser referência em desenvolvimento comunitário sustentável, valoriza a solidariedade, inovação e o respeito à cultura local e ao meio ambiente, promovendo práticas colaborativas e sustentáveis.
-                                                  Requisitos: Informação disponível somente para membros do Clube de Negócios BUSINESS SUNSET;
-                                                  </p>
-                                              </div>
-                                        </div>
-                                        <div class="container mt-3 mb-3 lineing">
-                                          <hr>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="space30"></div>
-                                            <div class="heading1">
-                                                <h5>Caminhada Executiva</h5>
-                                                <div class="space20"></div>
-                                                <p style="color: black; text-align: justify;">
-                                                  <strong>Caminhada Executiva</strong> , é uma iniciativa que promove o bem-estar e a colaboração entre empresários, acadêmicos e líderes do setor público e privado, incentivando a troca de ideias inovadoras e a criação de oportunidades de negócios. Com acompanhamento de profissionais desportivos, os participantes têm a chance de explorar soluções disruptivas de diversos setores e obter insights valiosos sobre negócios internacionais e instituições bilaterais. O evento reforça o compromisso da empresa com a saúde e o desenvolvimento de parcerias estratégicas.
-                                                 <br> <strong>Requisitos</strong>:
-                                                 <br>1. Inscrever-se para participar
-                                                 <br> 2. ⁠Adquirir o Uniforme ( T-shirt e boné )
-                                                 <br>  3. ⁠Doar um livro ou produto não perecível em cada actividade. </p>
-                                              </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                    </div>
-
-                </div>
-              </div>
-          </div>  
-        </div>
-
-
-
-        <!--=====CTA AREA END=======-->
+        <section class="gallery-container">
+          <h2 class="gallery-title">Nossa Galeria</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <a href="./assets/img/galeria/img1.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img1.jpg" alt="Imagem 1" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img2.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img2.jpg" alt="Imagem 2" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img3.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img3.jpg" alt="Imagem 3" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img4.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img4.jpg" alt="Imagem 4" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img5.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img5.jpg" alt="Imagem 5" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img6.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img6.jpg" alt="Imagem 6" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img7.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img7.jpg" alt="Imagem 7" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img8.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img8.jpg" alt="Imagem 8" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img9.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img9.jpg" alt="Imagem 9" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img10.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img10.jpg" alt="Imagem 10" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img11.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img11.jpg" alt="Imagem 11" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img12.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img12.jpg" alt="Imagem 12" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img13.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img13.jpg" alt="Imagem 13" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img14.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img14.jpg" alt="Imagem 14" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img15.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img15.jpg" alt="Imagem 15" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img16.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img16.jpg" alt="Imagem 16" class="img-fluid">
+              </a>
+          </div>
+          <div class="gallery-item">
+              <a href="./assets/img/galeria/img17.jpg" data-fancybox="gallery">
+                  <img src="./assets/img/galeria/img17.jpg" alt="Imagem 17" class="img-fluid">
+              </a>
+          </div>
+          
+              <!-- Add the remaining gallery items here, following the same pattern -->
+          </div>
+      </section>
+        <!--=====ADD GALLERY CONTENT HERE======-->
+   
+   
      
             <!--===== FOOTER AREA START =======-->
 
@@ -428,7 +457,24 @@
             </div>
         
                 <!--===== FOOTER AREA END =======-->
-            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <!-- Fancybox JS -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $("[data-fancybox]").fancybox({
+                            buttons: [
+                                "zoom",
+                                "share",
+                                "slideShow",
+                                "fullScreen",
+                                "download",
+                                "thumbs",
+                                "close"
+                            ],
+                        });
+                    });
+                </script>
 
                 <script src="assets/js/bootstrap.min.js"></script>
                 <script src="assets/js/aos.js"></script>
